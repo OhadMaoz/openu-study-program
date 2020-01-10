@@ -7,7 +7,8 @@ const firebaseConfig = firebase.initializeApp({
   databaseURL: "https://study-program-64b3a.firebaseio.com",
   projectId: "study-program-64b3a",
   storageBucket: "study-program-64b3a.appspot.com",
-  messagingSenderId: "252137292921"
+  messagingSenderId: "252137292921",
+  appId: "1:252137292921:web:6b86fd5d64653119be00a8"
 });
 
 export { firebaseConfig as firebase };
